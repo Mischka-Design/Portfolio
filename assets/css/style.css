@@ -313,6 +313,24 @@ section {
   margin-bottom: 0;
 }
 
+.dwa-goals{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.dwa-goals img{
+flex:1;
+padding:10px;
+}
+
+
+@media (max-width: 768px) {
+  .dwa-goals{
+    flex-direction:column
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
