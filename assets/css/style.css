@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero{
-    background: url(../img/hero-bg-mobile.jpg);
+    background: url(../img/hero-bg.jpg) top right;
   }
 }
 
@@ -332,11 +332,20 @@ width:80%;
   }
 }
 
+@media (max-width: 768px) {
+  #hero{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg-mobile.jpg) center;
+    background-size: cover;
+  }
+}
+
 .principles img {
   width:100%!important;
 }
 
-.clientRel img{
+clientRel img{
   width:100%;
 }
 
