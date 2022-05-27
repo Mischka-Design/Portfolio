@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Cinzel", serif;
+  font-family: "Lora", serif;
 }
 
 /*--------------------------------------------------------------
@@ -301,7 +301,11 @@ h6 {
     background-attachment: fixed;
   }
 }
-
+@media (max-width: 768px) {
+  .case-study {
+    flex-direction: column;
+  }
+}
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -753,8 +757,7 @@ clientRel img {
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 24px;
   margin-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: #ab4b6a;
@@ -762,6 +765,50 @@ clientRel img {
 
 .portfolio-details .portfolio-description p {
   padding: 15px;
+}
+
+/*New Details Section*/
+
+.case-study {
+  display: flex;
+  margin: 60px 30px;
+  align-items: center;
+}
+.case-study-details {
+  margin: 15px;
+  padding: 15px;
+  flex: 1;
+}
+
+.case-image {
+  text-align: center;
+}
+
+.swiper- {
+  margin: 30px;
+}
+
+.breadcrumbs {
+  background: #fff !important;
+}
+
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-family: "Lora", serif;
+  color: #001f56;
+  margin: 15px 60px;
+}
+
+.project-sub {
+  margin: 0px 60px;
+}
+
+.case-study-details h2 {
+  margin: 0 0 30px 15px;
+}
+
+.case-study-details p {
+  margin: 0 0 0px 15px;
 }
 
 /*--------------------------------------------------------------
@@ -1114,8 +1161,7 @@ main-logo .contact .info .email:hover i,
 }
 
 .breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 24px;
 }
 
 .breadcrumbs ol {
@@ -1123,8 +1169,8 @@ main-logo .contact .info .email:hover i,
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 0;
-  font-size: 15px;
+  margin: 30px 0;
+  font-size: 11px;
 }
 
 .breadcrumbs ol li + li {
