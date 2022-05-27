@@ -788,6 +788,15 @@ clientRel img {
   margin: 30px;
 }
 
+.swiper- img {
+  width: 100%;
+}
+
+.case-image img {
+  width: 100%;
+  margin: 30px;
+}
+
 .breadcrumbs {
   background: #fff !important;
 }
