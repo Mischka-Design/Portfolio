@@ -794,7 +794,7 @@ clientRel img {
 
 .case-image img {
   width: 100%;
-  margin: 30px;
+  padding: 15px;
 }
 
 .breadcrumbs {
