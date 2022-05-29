@@ -793,7 +793,7 @@ clientRel img {
 }
 
 .case-image img {
-  width: 100%;
+  width: 80%;
   padding: 15px;
 }
 
@@ -810,14 +810,19 @@ clientRel img {
 
 .project-sub {
   margin: 0px 60px;
+  font-size: 20px !important;
 }
 
 .case-study-details h2 {
   margin: 0 0 30px 15px;
+  font-size: 20px !important;
 }
 
 .case-study-details p {
   margin: 0 0 0px 15px;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-weight: normal;
 }
 
 /*--------------------------------------------------------------
