@@ -780,6 +780,12 @@ clientRel img {
   flex: 1;
 }
 
+@media (max-width: 768px) {
+  .case-study-details img {
+    width: 100% !important;
+  }
+}
+
 .case-image {
   text-align: center;
 }
@@ -790,6 +796,15 @@ clientRel img {
 
 .swiper- img {
   width: 100%;
+}
+
+.glightbox-clean .gslide-title {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lora", serif;
+  color: #525252;
+  margin-bottom: 19px;
+  line-height: 1.4em;
 }
 
 .case-image img {
