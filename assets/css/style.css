@@ -795,6 +795,12 @@ clientRel img {
   margin: 30px;
 }
 
+@media (max-width: 768px) {
+  .swiper- {
+    margin: 5px !important;
+  }
+}
+
 .swiper- img {
   width: 100%;
 }
@@ -811,6 +817,12 @@ clientRel img {
 .case-image img {
   width: 80%;
   padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .case-image img {
+    width: 100% !important;
+  }
 }
 
 .breadcrumbs {
