@@ -147,11 +147,18 @@ h6 {
   margin-left: 300px;
 }
 
+#main-emmi {
+  margin-left: 300px;
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
   }
   #main {
+    margin-left: 0;
+  }
+  #main-emmi {
     margin-left: 0;
   }
 }
@@ -327,6 +334,10 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+}
+
+#main-emmi {
+  background-color: #222;
 }
 
 .section-bg {
@@ -823,6 +834,22 @@ clientRel img {
   .case-image img {
     width: 100% !important;
   }
+}
+
+#main-emmi .breadcrumbs {
+  background: #222 !important;
+}
+
+#main-emmi .breadcrumbs h2 {
+  color: #fff !important;
+}
+
+#main-emmi .breadcrumbs ol li {
+  color: #fff;
+}
+
+#main-emmi {
+  color: #fff !important;
 }
 
 .breadcrumbs {
