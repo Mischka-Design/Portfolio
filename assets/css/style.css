@@ -1271,6 +1271,16 @@ main-logo .contact .info .email:hover i,
   }
 }
 
+.mood-board {
+  width: 50% !important;
+}
+
+@media (max-width: 768px) {
+  .mood-board {
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
