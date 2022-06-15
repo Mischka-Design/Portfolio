@@ -873,6 +873,22 @@ clientRel img {
   font-size: 20px !important;
 }
 
+@media (max-width: 768px) {
+  .case-study-details {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs h2 {
+    margin: 15px !important;
+  }
+  .project-sub {
+    margin: 15px !important;
+  }
+}
+
 .case-study-details p {
   margin: 0 0 0px 15px;
   font-size: 18px;
