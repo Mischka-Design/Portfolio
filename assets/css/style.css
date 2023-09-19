@@ -792,6 +792,15 @@ clientRel img {
   width: 100%;
 }
 
+.glightbox-clean .gslide-title {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lora", serif;
+  color: #525252;
+  margin-bottom: 19px;
+  line-height: 1.4em;
+}
+
 .case-image img {
   width: 80%;
   padding: 15px;
