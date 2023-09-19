@@ -147,11 +147,18 @@ h6 {
   margin-left: 300px;
 }
 
+#main-emmi {
+  margin-left: 300px;
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
   }
   #main {
+    margin-left: 0;
+  }
+  #main-emmi {
     margin-left: 0;
   }
 }
@@ -327,6 +334,10 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+}
+
+#main-emmi {
+  background-color: #222;
 }
 
 .section-bg {
@@ -780,12 +791,25 @@ clientRel img {
   flex: 1;
 }
 
+@media (max-width: 768px) {
+  .case-study-details img {
+    width: 100% !important;
+    padding: 15px;
+  }
+}
+
 .case-image {
   text-align: center;
 }
 
 .swiper- {
   margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .swiper- {
+    margin: 5px !important;
+  }
 }
 
 .swiper- img {
@@ -804,6 +828,28 @@ clientRel img {
 .case-image img {
   width: 80%;
   padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .case-image img {
+    width: 100% !important;
+  }
+}
+
+#main-emmi .breadcrumbs {
+  background: #222 !important;
+}
+
+#main-emmi .breadcrumbs h2 {
+  color: #fff !important;
+}
+
+#main-emmi .breadcrumbs ol li {
+  color: #fff;
+}
+
+#main-emmi {
+  color: #fff !important;
 }
 
 .breadcrumbs {
@@ -825,6 +871,22 @@ clientRel img {
 .case-study-details h2 {
   margin: 0 0 30px 15px;
   font-size: 20px !important;
+}
+
+@media (max-width: 768px) {
+  .case-study-details {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs h2 {
+    margin: 15px !important;
+  }
+  .project-sub {
+    margin: 15px !important;
+  }
 }
 
 .case-study-details p {
@@ -1222,6 +1284,16 @@ main-logo .contact .info .email:hover i,
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+}
+
+.mood-board {
+  width: 50% !important;
+}
+
+@media (max-width: 768px) {
+  .mood-board {
+    width: 100%;
   }
 }
 
